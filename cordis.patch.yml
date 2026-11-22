@@ -1,0 +1,4 @@
+# box cloud desktop guide for DSH agents. Configuration-only host row.
+- insert:
+    - id: box-guide
+      name: '@qusong/dsh-box-guide'
