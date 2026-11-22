@@ -1,0 +1,23 @@
+{
+  "name": "@qusong/dsh-box-guide",
+  "version": "1.0.0",
+  "description": "Teaches the agent how to use the Simular box cloud desktop: browser automation, GUI control, shell, snapshots, live view, and the sleep/wake workflow.",
+  "license": "MIT",
+  "type": "module",
+  "keywords": ["box", "simular", "cloud desktop", "browser", "computer-use", "guide"],
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs",
+    "icon.svg"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" }
+  }
+}
