@@ -1,0 +1,7 @@
+{
+  "meta": {
+    "title": "box cloud desktop guide",
+    "description": "Adds a short usage guide for the Simular box cloud desktop: browser automation, GUI control, shell and files, snapshots, live view and human hand-off, and the automatic sleep/wake flow. Requires the official box plugin and a connected box; adds no tools and handles no credentials. Open Plugins > box cloud desktop guide for details.",
+    "detail": "docs/DETAIL.md"
+  }
+}
