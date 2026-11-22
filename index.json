@@ -1,0 +1,82 @@
+{
+  "format": 1,
+  "title": { "en": "zhouhb0321's DSH plugins", "zh": "zhouhb0321 的 DSH 插件" },
+  "description": {
+    "en": "Usage guides that make the Simular box cloud desktop and Modal serverless compute work smoothly in DeepSeek Harness.",
+    "zh": "让 box 云桌面与 Modal 无服务器算力在 DeepSeek Harness 里更好用的使用引导插件。"
+  },
+  "metadata": {
+    "categories": {
+      "guide": { "title": { "en": "Guides", "zh": "使用引导" } },
+      "compute": { "title": { "en": "Cloud compute", "zh": "云端算力" } }
+    },
+    "labels": {
+      "recommended": { "title": { "en": "Recommended", "zh": "推荐" } }
+    },
+    "sortKeys": {
+      "published": { "title": { "en": "Recently published", "zh": "最近发布" }, "order": "desc" }
+    }
+  },
+  "plugins": [
+    {
+      "name": "@qusong/dsh-box-guide",
+      "title": { "en": "box cloud desktop guide", "zh": "box 云桌面使用引导" },
+      "description": {
+        "en": "Teaches the agent how to drive the Simular box cloud desktop: browser automation, GUI control, shell, snapshots, live view with human hand-off, and the sleep/wake flow. Requires the official box plugin; adds no tools and handles no credentials.",
+        "zh": "教会 Agent 如何驱动 Simular box 云桌面：浏览器自动化、GUI 操作、Shell、快照、实时观看与人工接管、休眠唤醒流程。需先装官方 box 插件；不新增工具、不接触密钥。"
+      },
+      "author": "zhouhb0321",
+      "homepage": "https://github.com/zhouhb0321/dsh-box",
+      "repository": { "url": "https://github.com/zhouhb0321/dsh-box" },
+      "icon": "icon.svg",
+      "metadata": {
+        "category": "guide",
+        "keywords": ["box", "simular", "cloud desktop", "browser", "computer-use", "guide"],
+        "labels": ["recommended"],
+        "sortKeys": { "published": 1795346376 }
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795346376,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/zhouhb0321/dsh-box",
+            "commit": "6581c0a9b5298415a04c9dfd94a4c5341a6161db"
+          },
+          "engines": { "dsh": ">=0.2.0" }
+        }
+      ]
+    },
+    {
+      "name": "@qusong/dsh-modal-guide",
+      "title": { "en": "Modal compute guide", "zh": "Modal 算力使用引导" },
+      "description": {
+        "en": "Teaches the agent when and how to use Modal serverless compute: GPUs, large-memory jobs, parallel batches, safe CLI and volume workflow, and cost rules. Requires the Modal CLI and a logged-in account; adds no tools and handles no credentials.",
+        "zh": "教会 Agent 何时以及如何使用 Modal 无服务器算力：GPU、大内存任务、并行批处理、安全的 CLI 与卷操作、成本规则。需本机已装 Modal CLI 并登录；不新增工具、不接触密钥。"
+      },
+      "author": "zhouhb0321",
+      "homepage": "https://github.com/zhouhb0321/dsh-modal",
+      "repository": { "url": "https://github.com/zhouhb0321/dsh-modal" },
+      "icon": "https://raw.githubusercontent.com/zhouhb0321/dsh-modal/c1daceaebf80452af6fcb1024adfbf7a5a21ff22/icon.svg",
+      "metadata": {
+        "category": "compute",
+        "keywords": ["modal", "serverless", "gpu", "compute", "guide", "agent"],
+        "labels": ["recommended"],
+        "sortKeys": { "published": 1795346375 }
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1795346375,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/zhouhb0321/dsh-modal",
+            "commit": "c1daceaebf80452af6fcb1024adfbf7a5a21ff22"
+          },
+          "engines": { "dsh": ">=0.2.0" }
+        }
+      ]
+    }
+  ]
+}
