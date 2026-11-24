@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "box cloud desktop guide",
-    "description": "Adds a short usage guide for the Simular box cloud desktop: browser automation, GUI control, shell and files, snapshots, live view and human hand-off, and the automatic sleep/wake flow. Requires the official box plugin and a connected box; adds no tools and handles no credentials. Open Plugins > box cloud desktop guide for details.",
+    "title": "Teach your agent to use a cloud desktop",
+    "description": "Your agent has a cloud computer — but may not know how to use it well. A short guide teaches it to open a real browser when login state matters, drive the GUI and shell when needed, hand control back to you for sign-in and captchas, and treat sleep as normal instead of fighting it. Adds no tools, touches no credentials, makes no network calls — harmless even if unused. Requires the official box plugin.",
     "detail": "docs/DETAIL.md"
   }
 }
